@@ -1,0 +1,23 @@
+/* ---------- Google Font ---------- */
+@font-face {
+    font-family: "Playpen Sans";
+    src: url("../font/playpen/PlaypenSans-Regular.ttf") format('truetype');
+
+}
+
+/* ---------- Reset css ---------- */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* ---------- Apply hole site ---------- */
+body {
+    font-family: "Playpen Sans";
+    background-color: #DFCAB7;
+    color:#FCF7F1;
+    font-weight: 600;
+    font-size: 18px;
+
+}
