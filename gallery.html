@@ -22,12 +22,13 @@
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/form.css" />
+    <link rel="stylesheet" href="assets/css/gallery.css" />
     <link rel="stylesheet" href="assets/font/font-awesome/css/fontawesome.css" />
     <link rel="stylesheet" href="assets/font/font-awesome/css/brands.css" />
     <link rel="stylesheet" href="assets/font/font-awesome/css/solid.css" />
 
     <!-- Page Title-->
-    <title>Early Rise Coffee</title>
+    <title>Gallery</title>
 
 </head>
 <body>
@@ -68,71 +69,78 @@
 
             <!-- Header -->
             <div class="main__header">
-                <h1>Recent Events</h1>
+                <h1>Gallery</h1>
             </div>
 
-            <!-- Content Card -->
-            <div class="card">
-                <div class="card__header">
-                    <img src="assets/images/blog/reffil.webp" alt="card__image" class="card__image" width="600">
-                </div>
-                <div class="card__body">
-                    <span class="tag tag-brown">Coffee</span>
-                    <h4>Refill on February with 1/2 Price</h4>
-                    <p>Sip into savings at our cozy coffee haven! Enjoy aromatic brews and relish a half-price refill to keep your cup brimming!</p>
-                </div>
-                <div class="card__footer">
-                    <div class="user">
-                        <img src="assets/images/early_rise_caffee.svg" alt="user__image" class="user__image">
-                        <div class="user__info">
-                            <h5>Early Rise Cafe</h5>
-                            <small>2h ago</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Gallery -->
+            <div class="container">
 
-            <!-- Content Card -->
-            <div class="card">
-                <div class="card__header">
-                    <img src="assets/images/blog/food.webp" alt="card__image" class="card__image" width="600">
+                <!-- Full-width images with number text -->
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="assets/images/gallery/coffee.webp">
                 </div>
-                <div class="card__body">
-                    <span class="tag tag-brown">Promo</span>
-                    <h4>Happy Hours</h4>
-                    <p>Savor the joy of Happy Hours! Weekends, 14:00-16:00, indulge in our delightful coffee blends and tasty food with a 10% discount. Happiness brewed, bites savored!</p>
+              
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="assets/images/gallery/drinks.webp">
                 </div>
-                <div class="card__footer">
-                    <div class="user">
-                        <img src="assets/images/early_rise_caffee.svg" alt="user__image" class="user__image">
-                        <div class="user__info">
-                            <h5>Early Rise Cafe</h5>
-                            <small>Yesterday</small>
-                        </div>
+              
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="assets/images/gallery/food.webp">
+                </div>
+              
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="assets/images/gallery/pastry.webp">
+                </div>
+              
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="assets/images/gallery/reffil.webp">
+                </div>
+              
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="assets/images/gallery/tea.webp">
+                </div>
+              
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              
+                <!-- Image text -->
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+              
+                <!-- Thumbnail images -->
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="assets/images/gallery/coffee.webp" style="width:100%" onclick="currentSlide(1)" alt="The Coffee">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/images/gallery/drinks.webp" style="width:100%" onclick="currentSlide(2)" alt="Orange Juice">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/images/gallery/food.webp" style="width:100%" onclick="currentSlide(3)" alt="The Big Tower">
                     </div>
                 </div>
-            </div>
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="assets/images/gallery/pastry.webp" style="width:100%" onclick="currentSlide(4)" alt="DoNuts Go Nuts">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/images/gallery/reffil.webp" style="width:100%" onclick="currentSlide(5)" alt="Double Shot">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/images/gallery/tea.webp" style="width:100%" onclick="currentSlide(6)" alt="Ice Tea">
+                    </div>
+                </div>
+              </div>
 
-            <!-- Content Card -->
-            <div class="card">
-                <div class="card__header">
-                    <img src="assets/images/blog/offer.webp" alt="card__image" class="card__image" width="600">
-                </div>
-                <div class="card__body">
-                    <span class="tag tag-brown">Coffee</span>
-                    <h4>!!! Coffee / Student / 1 Euro !!!</h4>
-                    <p>Student perk alert! Flash your valid student card and enjoy a cup of bliss for just 1 euro. Elevate your study session with us!</p>
-                </div>
-                <div class="card__footer">
-                    <div class="user">
-                        <img src="assets/images/early_rise_caffee.svg" alt="user__image" class="user__image">
-                        <div class="user__info">
-                            <h5>Early Rise Cafe</h5>
-                            <small>2d ago</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
 
             <!-- Footer -->
             <div class="footer__message">
@@ -194,7 +202,7 @@
     
     <!-- Scripts -->
     <script src="assets/script/navbar.js"></script>
-    <script src="assets/script/form.js"></script>
     <script src="assets/script/main.js"></script>
+    <script src="assets/script/gallery.js"></script>
 </body>
 </html>
