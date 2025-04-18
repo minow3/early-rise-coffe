@@ -33,8 +33,123 @@ body {
 #header {     
         background-image: url("../images/home.webp");
         width: 100%;
-        height: 30vh;
+        height: 40vh;
         background-size: cover;
-        background-position: center;
-        padding-top: 3em;
+        background-position: center center;
+        padding-top: 2em;
+        
 }
+
+/* ---------- Breaker line ---------- */
+#linebreak {
+    border: none;
+    height: 2px;
+    background-color: #5B3D23;
+    margin-top: 20px;
+}
+
+/* ---------- Social network ---------- */
+.social {
+    text-align: center;
+}
+
+.social li {
+    font-size: 2em;
+    list-style: none;
+    display: inline-block;
+    padding: 0.3em;
+}
+
+.social a {
+    color: #5B3D23;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: #FCF7F1;
+}
+
+/* ---------- Card ---------- */
+img {
+    width: 100%;
+    height: 250px;
+    display: block;
+    object-fit: cover;
+    border: 2px solid #5B3D23;
+}
+  
+.card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color:#5B3D23;
+}
+
+.card__body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.tag {
+    align-self: flex-start;
+    padding: .25em .75em;
+    border-radius: 1em;
+    font-size: .75rem;
+}
+  
+.tag + .tag {
+    margin-left: .5em;
+}
+  
+.tag-brown {
+    background: #D1913C;
+    color: #5B3D23;
+    padding: 5px;
+    font-size: 14px;
+}
+  
+.card__body h4 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+  
+.card__footer {
+    display: flex;
+    padding: 1rem;
+    margin-top: auto;
+}
+  
+.user {
+    display: flex;
+    gap: .5rem;
+}
+  
+.user__image {
+    border-radius: 50%;
+    border: 1px solid #5B3D23;
+    width: 75px;
+    height: 75px;
+}
+  
+.user__info > small {
+    color: #666;
+}
+
+/* ---------- Footer ---------- */
+.copyrights {
+    text-align: center;
+    padding: 10px;
+    background-color: #5B3D23;
+    color: #FCF7F1;
+}
+
+.copyrights a {
+    color: #D1913C;
+    text-decoration: none;
+}
+
+.copyrights a:hover {
+    color: #FCF7F1;
+}  
