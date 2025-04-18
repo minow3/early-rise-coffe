@@ -1,9 +1,9 @@
 /* ---------- Target text field ---------- */
 input[type="text"],
 textarea {
-  background-color: #FCF7F1;
-  border: 2px solid #5B3D23;
-  color: #5B3D23;
+  background-color: #fcf7f1;
+  border: 2px solid #5b3d23;
+  color: #5b3d23;
   width: 100%;
   padding: 12px;
   border-radius: 10px;
@@ -12,14 +12,13 @@ textarea {
   margin-bottom: 16px;
   resize: vertical;
   font-family: "Playpen Sans";
-
 }
 
 /* ---------- Target email field ---------- */
 input[type="email"] {
-  background-color: #FCF7F1;
-  border: 2px solid #5B3D23;
-  width: 100%; 
+  background-color: #fcf7f1;
+  border: 2px solid #5b3d23;
+  width: 100%;
   padding: 12px;
   border-radius: 10px;
   box-sizing: border-box;
@@ -27,36 +26,48 @@ input[type="email"] {
   margin-bottom: 16px;
   resize: vertical;
   font-family: "Playpen Sans";
-
 }
 
 /* ---------- Target check field ---------- */
 input[type="checkbox"] {
   width: 18px;
   height: 18px;
-  accent-color:#ffa849;
-  background-color: #FCF7F1;
-
+  accent-color: #ffa849;
+  background-color: #fcf7f1;
 }
 
 #news {
   font-size: 25px;
-  background-color: #FCF7F1;
-  border: 2px solid #5B3D23;
+  background-color: #fcf7f1;
+  border: 2px solid #5b3d23;
   padding: 12px;
   margin-top: 6px;
   margin-bottom: 16px;
   font-size: 20px;
 }
 
-
 /* ---------- Target date time field ---------- */
 input[type="datetime-local"] {
-    background-color: #FCF7F1;
-    border: 2px solid #5B3D23;
-    color:#5B3D23;
+  background-color: #fcf7f1;
+  border: 2px solid #5b3d23;
+  color: #5b3d23;
+  font-size: 16px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "Playpen Sans";
+}
+/* ---------- Target number field ---------- */
+input[type="number"] {
+    background-color: #fcf7f1;
+    border: 2px solid #5b3d23;
+    color: #5b3d23;
     font-size: 16px;
-    width: 100%; 
+    width: 100%;
     padding: 12px;
     border-radius: 10px;
     box-sizing: border-box;
@@ -64,21 +75,19 @@ input[type="datetime-local"] {
     margin-bottom: 16px;
     resize: vertical;
     font-family: "Playpen Sans";
-  
   }
 
 /* ---------- Target submit button ---------- */
 input[type="submit"] {
   background-color: #ffa849;
-  border: 2px solid #5B3D23;
-  color: #5B3D23;
+  border: 2px solid #5b3d23;
+  color: #5b3d23;
   padding: 12px 20px;
   border-radius: 10px;
   cursor: pointer;
   font-size: 18px;
   font-weight: 600;
   font-family: "Playpen Sans";
-
 }
 
 /* ---------- Hover effect ---------- */
@@ -86,34 +95,29 @@ input[type="submit"]:hover {
   background-color: #fff;
   color: #68848b;
   font-weight: 600;
-  border: 2px solid #5B3D23;
-
+  border: 2px solid #5b3d23;
 }
 
 /* ---------- Target full form ---------- */
 .container-form {
   padding: 15px;
   max-width: 300px;
-
 }
 
 /* ---------- Target label of field ---------- */
 .container-form label {
   font-size: 20px;
-  color: #5B3D23;
-
+  color: #5b3d23;
 }
 
 /* ---------- Target placeholders in input fields ---------- */
 .container-form input::placeholder {
-    font-size: 18px;
-    color: #5B3D23;
-
+  font-size: 18px;
+  color: #5b3d23;
 }
 
 /* ---------- Target placeholders in textarea fields ---------- */
 .container-form textarea::placeholder {
-    font-size: 18px;
-    color: #5B3D23;
-
+  font-size: 18px;
+  color: #5b3d23;
 }

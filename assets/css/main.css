@@ -75,14 +75,14 @@ body {
     color: #5B3D23;
 }
 
-/* ---------- Card ---------- */
+/* ---------- Images ---------- */
 img {
     width: 100%;
     height: 300px;
     display: block;
     object-fit: cover;
 }
-  
+/* ---------- Card ---------- */
 .card {
     display: flex;
     flex-direction: column;
