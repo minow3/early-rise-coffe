@@ -14,8 +14,8 @@
 /* ---------- Body ---------- */
 body {
     font-family: "Playpen Sans";
-    background-color: #DFCAB7;
-    color:#FCF7F1;
+        background-color: #DFCAB7;
+    color: #5B3D23;
     font-weight: 600;
     font-size: 1em;
 
@@ -40,12 +40,12 @@ body {
         
 }
 
+
 /* ---------- Breaker line ---------- */
 #linebreak {
     border: none;
     height: 2px;
     background-color: #5B3D23;
-    margin-top: 20px;
 }
 
 /* ---------- Social network ---------- */
@@ -67,6 +67,12 @@ body {
 
 .social a:hover {
     color: #FCF7F1;
+}
+
+/* ---------- Header ---------- */
+.main__header {
+    text-align: center;
+    color: #5B3D23;
 }
 
 /* ---------- Card ---------- */
@@ -136,8 +142,43 @@ img {
 .user__info > small {
     color: #666;
 }
+.name {
+    color:#5B3D23;
+    padding-left: 15px;
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+.list li {
+    list-style: none;
+    padding-left: 9px;
+    padding-top: 5px;
+}
 
 /* ---------- Footer ---------- */
+.footer__message {
+    text-align: center;
+    padding: 10px;
+    background-color: #5B3D23;
+    color: #FCF7F1;
+}
+.footer__message a {
+    color: #D1913C;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.footer__message a:hover {
+    color: #FCF7F1;
+} 
+
+.timelist {
+    list-style: none;
+    padding: 20px;
+    color: #5B3D23;
+    font-size: 18px;
+}
+
 .copyrights {
     text-align: center;
     padding: 10px;
