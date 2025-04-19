@@ -1,3 +1,7 @@
+.booking-form {
+    padding: 1em;
+}
+
 /* ---------- Target text field ---------- */
 input[type="text"],
 textarea {
