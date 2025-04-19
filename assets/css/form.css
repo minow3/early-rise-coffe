@@ -2,6 +2,23 @@
     padding: 1em;
 }
 
+.contact-form {
+    padding: 1em;
+}
+
+.contact-form legend {
+    font-size: 1.5em;
+    color: #5B3D23;
+    margin-bottom: 1em;
+}
+
+.contact-form fieldset {
+    border: 2px solid #5B3D23;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: #fcf7f1;
+}
+
 /* ---------- Target text field ---------- */
 input[type="text"],
 textarea {
@@ -39,6 +56,13 @@ input[type="checkbox"] {
   accent-color: #ffa849;
   background-color: #fcf7f1;
 }
+
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #ffa849;
+    background-color: #fcf7f1;
+  }
 
 #news {
   font-size: 25px;

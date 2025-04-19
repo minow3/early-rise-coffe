@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="assets/font/font-awesome/css/solid.css" />
 
     <!-- Page Title-->
-    <title>Booking</title>
+    <title>Contact Us</title>
 
 </head>
 <body>
@@ -70,36 +70,49 @@
 
             <!-- Header -->
             <div class="main__header">
-                <h1>Book a  Table</h1>
+                <h1>Contact Us</h1>
                 <br>
             </div>
 
-            <!-- Booking form-->
-            <div class="booking-form">
-                <form action="form-booking.html">
-            
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname">
-            
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname">
-
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-            
-                <label for="time">Choose time from</label>
-                <input type="datetime-local" id="time" name="time-from" required>
-
-                <label for="time">Choose time to</label>
-                <input type="datetime-local" id="time" name="time-from" required>
-
-                <label for="guests">Number of guests (1-6)</label>
-                <input type="number" id="guests" name="guests" required min="1" max="6">
-            
-                <input type="submit" value="Submit">
-            
+            <!-- Form -->
+            <div class="contact-form">
+                <form action="http://rdwd.atspace.cc/response.php" method="POST" onsubmit="return validateForm()">
+                    <!-- Name -->
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+    
+                    <!-- Address -->
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" />
+    
+                    <!-- Mobile -->
+                    <label for="mobile">Mobile:</label>
+                    <input type="text" id="mobile" name="mobile" pattern="^(089|088|087|086|085|084|083|082|081)\d{7}$" title="Mobile number must start with 087, 086, or 085 and be 10 digits long" required />
+    
+                    <!-- Email -->
+                    <label for="email1">Email:</label>
+                    <input type="email" id="email1" name="email1" required />
+    
+                    <!-- Retype Email -->
+                    <label for="email2">Retype your email:</label> 
+                    <input type="email" id="email2" name="email2" required />
+    
+                    <!-- Member/Non-Member -->
+                    <fieldset>
+                        <legend>Are you a member?</legend>
+                        <label for="member">Member</label>
+                        <input type="radio" id="member" name="member" value="member" required />
+                        <label for="non-member">Non-Member</label>
+                        <input type="radio" id="non-member" name="member" value="non-member" required />
+                    </fieldset>
+    
+                    <!-- Query/Comment -->
+                    <label for="query">Query/Comment:</label>
+                    <textarea id="query" name="query" required></textarea>
+    
+                    <!-- Submit Button -->
+                    <input type="submit"></input>
                 </form>
-                <br>
             </div>
 
             <!-- Footer -->
