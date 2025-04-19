@@ -1,3 +1,10 @@
+/* ---------- Images ---------- */
+img {
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
 /* ---------- Picture homepage ---------- */
 #header {     
     background-image: url("../images/early_rise_caffee.svg");
@@ -37,7 +44,7 @@
 }
 /* ---------- Picture event ---------- */
 #event-header {
-    background-image: url("../images/student.webp");
+    background-image: url("../images/student.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
