@@ -175,8 +175,6 @@ body {
     color: #FCF7F1;
 } 
 
-
-
 /* ---------- Media queries ---------- */
 @media screen and (min-width: 700px) {
     .main {

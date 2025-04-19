@@ -1,10 +1,11 @@
-/* ---------- Images ---------- */
+/* ---------- Images Global ---------- */
 img {
     width: 100%;
     height: 300px;
     display: block;
     object-fit: cover;
 }
+
 /* ---------- Picture homepage ---------- */
 #header {     
     background-image: url("../images/early_rise_caffee.svg");
@@ -15,6 +16,7 @@ img {
     padding-top: 2em;
     
 }
+
 /* ---------- Picture gallery ---------- */
 #gallery-header {
     background-image: url("../images/home.webp");
@@ -24,6 +26,7 @@ img {
     background-position: center center;
     padding-top: 2em;
 }
+
 /* ---------- Picture pricing ---------- */
 #pricing-header {
     background-image: url("../images/pricing.webp");
@@ -33,6 +36,7 @@ img {
     background-position: center center;
     padding-top: 2em;
 }
+
 /* ---------- Picture booking ---------- */
 #booking-header {
     background-image: url("../images/booking.webp");
@@ -42,6 +46,7 @@ img {
     background-position: center center;
     padding-top: 2em;
 }
+
 /* ---------- Picture event ---------- */
 #event-header {
     background-image: url("../images/student.jpg");
@@ -51,6 +56,7 @@ img {
     background-position: center center;
     padding-top: 2em;
 }
+
 /* ---------- Picture contact ---------- */
 #contact-header {
     background-image: url("../images/contact.webp");
@@ -60,6 +66,7 @@ img {
     background-position: center center;
     padding-top: 2em;
 }
+
 /* ---------- Picture about ---------- */
 #about-header {
     background-image: url("../images/about.webp");
@@ -94,6 +101,7 @@ img {
         height: 45vh;
     }
 }
+
 /* ---------- Picture in 450px ---------- */
 @media screen and (min-width: 450px) {
     #header {
