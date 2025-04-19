@@ -33,17 +33,17 @@
 }
 
 /* ---------- Navbar media queries---------- */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
     .topnav a:not(:first-child) {
         display: none;
     }
     .topnav a.icon {
         float: right;
-        display: block;
+        display: block; 
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
     .topnav.responsive {
         position: fixed;
         top: 0;

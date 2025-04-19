@@ -2,7 +2,6 @@
 @font-face {
     font-family: "Playpen Sans";
     src: url("../font/playpen/PlaypenSans-Regular.ttf") format('truetype');
-
 }
 
 /* ---------- Reset css ---------- */
@@ -14,32 +13,18 @@
 /* ---------- Body ---------- */
 body {
     font-family: "Playpen Sans";
-        background-color: #DFCAB7;
+    background-color: #DFCAB7;
     color: #5B3D23;
     font-weight: 600;
     font-size: 1em;
-
 }
 
 /* ---------- Content ---------- */
-#main {
-    max-width: 1600px;
+.main {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;
 }
-
-/* ---------- Picture side ---------- */
-#header {     
-        background-image: url("../images/home.webp");
-        width: 100%;
-        height: 30vh;
-        background-size: cover;
-        background-position: center center;
-        padding-top: 2em;
-        
-}
-
 
 /* ---------- Breaker line ---------- */
 #linebreak {
@@ -82,6 +67,7 @@ img {
     display: block;
     object-fit: cover;
 }
+
 /* ---------- Card ---------- */
 .card {
     display: flex;
@@ -109,10 +95,10 @@ img {
 }
   
 .tag-brown {
-    background: #D1913C;
-    color: #5B3D23;
+    color: black;
     padding: 5px;
     font-size: 14px;
+    border: 1px solid #5B3D23;
 }
   
 .card__body h4 {
@@ -139,8 +125,9 @@ img {
 }
   
 .user__info > small {
-    color: #666;
+    color: black;
 }
+
 .name {
     color:#5B3D23;
     padding-left: 15px;
@@ -148,6 +135,7 @@ img {
     text-decoration: underline;
 
 }
+
 .list li {
     list-style: none;
     padding-left: 9px;
@@ -161,6 +149,7 @@ img {
     background-color: #5B3D23;
     color: #FCF7F1;
 }
+
 .footer__message a {
     color: #D1913C;
     text-decoration: none;
@@ -186,10 +175,25 @@ img {
 }
 
 .copyrights a {
-    color: #D1913C;
+    color: skyblue;
     text-decoration: none;
 }
 
 .copyrights a:hover {
     color: #FCF7F1;
-}  
+} 
+
+
+
+/* ---------- Media queries ---------- */
+@media screen and (min-width: 700px) {
+    .main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #content {
+        grid-column: 2/3;
+        padding-top: 3.5em;
+        border-left: 2px solid #5B3D23;
+    }
+}
+
