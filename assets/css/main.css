@@ -27,7 +27,7 @@ body {
 }
 
 /* ---------- Breaker line ---------- */
-#linebreak {
+.linebreak {
     border: none;
     height: 2px;
     background-color: #5B3D23;
